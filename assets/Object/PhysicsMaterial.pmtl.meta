@@ -1,7 +1,7 @@
 {
   "ver": "1.0.0",
   "uuid": "45e1155e-e2b5-4df7-8702-aff071bc7936",
-  "friction": 0,
+  "friction": 1,
   "restitution": 1,
   "subMetas": {}
 }
