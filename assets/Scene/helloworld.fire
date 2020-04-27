@@ -177,7 +177,7 @@
       "array": [
         0,
         0,
-        449.46718456412367,
+        554.2562584220408,
         0,
         0,
         0,
@@ -207,7 +207,7 @@
     "node": {
       "__id__": 3
     },
-    "_enabled": true,
+    "_enabled": false,
     "_cullingMask": 0,
     "_clearFlags": 7,
     "_backgroundColor": {
@@ -479,11 +479,11 @@
       "array": [
         0,
         400,
-        650,
-        -0.3420201433256687,
+        554.2562584220408,
+        -0.4070475348474869,
         0,
         0,
-        0.9396926207859084,
+        0.9134069763115366,
         1,
         1,
         1
@@ -491,7 +491,7 @@
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": -40,
+      "x": -48.039,
       "y": 0,
       "z": 0
     },
@@ -510,7 +510,7 @@
       "__id__": 9
     },
     "_enabled": true,
-    "_cullingMask": 4294967295,
+    "_cullingMask": -1,
     "_clearFlags": 7,
     "_backgroundColor": {
       "__type__": "cc.Color",
@@ -540,7 +540,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "New Directional Light",
+    "_name": "New Point Light",
     "_objFlags": 0,
     "_parent": {
       "__id__": 8
@@ -575,13 +575,13 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -230.57,
-        377.603,
-        208.412,
-        -0.25881904510252074,
+        0,
+        285,
+        423,
+        -0.7071067811865475,
         0,
         0,
-        0.9659258262890683,
+        0.7071067811865476,
         1,
         1,
         1
@@ -589,7 +589,7 @@
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": -30,
+      "x": -90,
       "y": 0,
       "z": 0
     },
@@ -598,7 +598,7 @@
     "_is3DNode": true,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "4b0AtcSndNLrf4j/4h5nrh"
+    "_id": "e43Qz/YmxPsb1OmtG9CNmv"
   },
   {
     "__type__": "cc.Light",
@@ -617,22 +617,21 @@
       "a": 255
     },
     "_intensity": 1,
-    "_range": 1000,
+    "_range": 1032,
     "_spotAngle": 60,
     "_spotExp": 1,
-    "_shadowType": 0,
+    "_shadowType": 4,
     "_shadowResolution": 1024,
-    "_shadowDarkness": 0.5,
-    "_shadowMinDepth": 1,
+    "_shadowDarkness": 0.1,
+    "_shadowMinDepth": 10,
     "_shadowMaxDepth": 1000,
-    "_shadowDepthScale": 250,
     "_shadowFrustumSize": 50,
     "_shadowBias": 0.0005,
-    "_id": "1f0nkIJalFWbuzyWYGzQ6W"
+    "_id": "c6XsuySJxA1anaayHHkbW2"
   },
   {
     "__type__": "cc.Node",
-    "_name": "New Ambient Light",
+    "_name": "New Spot Light",
     "_objFlags": 0,
     "_parent": {
       "__id__": 8
@@ -668,12 +667,12 @@
       "ctor": "Float64Array",
       "array": [
         0,
+        520.879,
+        0,
+        -0.7071067811865475,
         0,
         0,
-        0,
-        0,
-        0,
-        1,
+        0.7071067811865476,
         1,
         1,
         1
@@ -681,7 +680,7 @@
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
-      "x": 0,
+      "x": -90,
       "y": 0,
       "z": 0
     },
@@ -690,7 +689,7 @@
     "_is3DNode": true,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "4eH0u4ZLRLUahkKwHNCWIS"
+    "_id": "7eLT8LIbRNn6T1394M8e4h"
   },
   {
     "__type__": "cc.Light",
@@ -700,7 +699,7 @@
       "__id__": 13
     },
     "_enabled": true,
-    "_type": 3,
+    "_type": 2,
     "_color": {
       "__type__": "cc.Color",
       "r": 255,
@@ -708,19 +707,18 @@
       "b": 255,
       "a": 255
     },
-    "_intensity": 0.25,
-    "_range": 1,
-    "_spotAngle": 60,
+    "_intensity": 1,
+    "_range": 1100,
+    "_spotAngle": 125.754,
     "_spotExp": 1,
-    "_shadowType": 0,
+    "_shadowType": 4,
     "_shadowResolution": 1024,
     "_shadowDarkness": 0.5,
     "_shadowMinDepth": 1,
     "_shadowMaxDepth": 1000,
-    "_shadowDepthScale": 250,
     "_shadowFrustumSize": 50,
     "_shadowBias": 0.0005,
-    "_id": "41m8io0klIDrzROYQAfTDJ"
+    "_id": "28InE0vR9GBJmHwhfE/ZcF"
   },
   {
     "__type__": "cc.Node",
@@ -878,8 +876,8 @@
     "_mesh": {
       "__uuid__": "046f172c-1574-488b-bbb8-6415a9adb96d"
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
+    "_receiveShadows": true,
+    "_shadowCastingMode": 1,
     "_enableAutoBatch": false,
     "textures": [],
     "_id": "00KYsMhzJEXaFPUWVhGi1H"
@@ -978,8 +976,8 @@
     "_mesh": {
       "__uuid__": "046f172c-1574-488b-bbb8-6415a9adb96d"
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
+    "_receiveShadows": true,
+    "_shadowCastingMode": 1,
     "_enableAutoBatch": false,
     "textures": [],
     "_id": "85Yw/f3zFJX5hWvh2HebID"
@@ -1104,8 +1102,8 @@
     "_mesh": {
       "__uuid__": "046f172c-1574-488b-bbb8-6415a9adb96d"
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
+    "_receiveShadows": true,
+    "_shadowCastingMode": 1,
     "_enableAutoBatch": false,
     "textures": [],
     "_id": "25WfH3qXxKNrO2I2K9nYUu"
@@ -1230,8 +1228,8 @@
     "_mesh": {
       "__uuid__": "046f172c-1574-488b-bbb8-6415a9adb96d"
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
+    "_receiveShadows": true,
+    "_shadowCastingMode": 1,
     "_enableAutoBatch": false,
     "textures": [],
     "_id": "73yM7KvYBATYlZdMDfb4pL"
@@ -1356,8 +1354,8 @@
     "_mesh": {
       "__uuid__": "046f172c-1574-488b-bbb8-6415a9adb96d"
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
+    "_receiveShadows": true,
+    "_shadowCastingMode": 1,
     "_enableAutoBatch": false,
     "textures": [],
     "_id": "far/fc7zhAIbhnD/JxwPPf"
@@ -1491,8 +1489,8 @@
     "_mesh": {
       "__uuid__": "046f172c-1574-488b-bbb8-6415a9adb96d"
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
+    "_receiveShadows": true,
+    "_shadowCastingMode": 1,
     "_enableAutoBatch": false,
     "textures": [],
     "_id": "bcIDbqz/dCV7rr1ErRg12X"
@@ -1607,8 +1605,8 @@
     "_mesh": {
       "__uuid__": "3bbdb0f6-c5f6-45de-9f33-8b5cbafb4d6d"
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
+    "_receiveShadows": true,
+    "_shadowCastingMode": 1,
     "_enableAutoBatch": false,
     "textures": [],
     "_id": "50CG6YWkhIRrCCMaC8ovj1"
@@ -1822,8 +1820,8 @@
     "_mesh": {
       "__uuid__": "046f172c-1574-488b-bbb8-6415a9adb96d"
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
+    "_receiveShadows": true,
+    "_shadowCastingMode": 1,
     "_enableAutoBatch": false,
     "textures": [],
     "_id": "16VX/91c5Ng6F7SrT9spHv"
@@ -1961,8 +1959,8 @@
     "_mesh": {
       "__uuid__": "046f172c-1574-488b-bbb8-6415a9adb96d"
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
+    "_receiveShadows": true,
+    "_shadowCastingMode": 1,
     "_enableAutoBatch": false,
     "textures": [],
     "_id": "71jhqFi/NLt73JiUViIrxu"
@@ -2100,8 +2098,8 @@
     "_mesh": {
       "__uuid__": "046f172c-1574-488b-bbb8-6415a9adb96d"
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
+    "_receiveShadows": true,
+    "_shadowCastingMode": 1,
     "_enableAutoBatch": false,
     "textures": [],
     "_id": "a1xC3svc9EOJqTFP25IcSM"
@@ -2239,8 +2237,8 @@
     "_mesh": {
       "__uuid__": "046f172c-1574-488b-bbb8-6415a9adb96d"
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
+    "_receiveShadows": true,
+    "_shadowCastingMode": 1,
     "_enableAutoBatch": false,
     "textures": [],
     "_id": "c9tbiCjGxAWI7fUcrcrJog"
@@ -2378,8 +2376,8 @@
     "_mesh": {
       "__uuid__": "046f172c-1574-488b-bbb8-6415a9adb96d"
     },
-    "_receiveShadows": false,
-    "_shadowCastingMode": 0,
+    "_receiveShadows": true,
+    "_shadowCastingMode": 1,
     "_enableAutoBatch": false,
     "textures": [],
     "_id": "ccSJn2TuBPJI6KnU5vzams"
